@@ -1,0 +1,21 @@
+{
+  "name": "my-mcp-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --inspect server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mcp", "server", "javascript"],
+  "author": "",
+  "license": "ISC",
+  "description": "A Model Context Protocol server built with JavaScript",
+  "bin": {
+    "my-mcp-server": "./server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.3"
+  }
+}
