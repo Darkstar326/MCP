@@ -1,19 +1,19 @@
 {
-  "name": "my-mcp-server",
+  "name": "@iflow-mcp/mcp-flyin",
   "version": "1.0.0",
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --inspect server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node server.js",
+    "start": "node server.js"
   },
   "keywords": ["mcp", "server", "javascript"],
   "author": "",
   "license": "ISC",
   "description": "A Model Context Protocol server built with JavaScript",
   "bin": {
-    "my-mcp-server": "./server.js"
+    "mcp-flyin": "./server.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.13.3"
